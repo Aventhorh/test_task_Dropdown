@@ -1,0 +1,65 @@
+.languageSelectorContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #c1c1c1;
+}
+
+.languageSelectorSlide {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.languageSelectorOpenClose {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  color: rgb(0 0 0);
+}
+
+.checkItem {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(209 213 219);
+  border-radius: 0.375rem;
+}
+
+.languageSelectorClose {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 10px;
+  color: rgb(0 0 0);
+}
+
+.list {
+  border-radius: 12px;
+  box-shadow: 0px 4px 32px rgba(51, 51, 51, 0.15);
+  padding-top: 1rem;
+  background-color: rgb(255 255 255);
+  z-index: 20;
+}
+
+.hideList {
+  display: none;
+}
+
+.checkList {
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
+  gap: 10px 30px;
+}

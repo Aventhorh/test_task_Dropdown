@@ -1,0 +1,75 @@
+.country {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 400;
+  border-bottom-width: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.countryTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: bold;
+  font-weight: 500;
+}
+
+.countryCheck {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.countryText {
+  padding: 0.5rem;
+}
+
+.countryOpenClose {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 6px;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  color: rgb(0 0 0);
+}
+
+.countries {
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243 244 246);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.75rem;
+}
+
+.countriesSearchIcon {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-left: 1.75rem;
+  color: rgb(157 157 157);
+}
+
+.countriesSearchBar {
+  flex: 1 1 0%;
+  background-color: transparent;
+  border-style: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  color: rgb(157 157 157);
+  color: rgb(0 0 0);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 1rem;
+}
